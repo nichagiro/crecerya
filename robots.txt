@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crecerya.com/sitemap.xml
