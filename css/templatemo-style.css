@@ -346,9 +346,14 @@ https://templatemo.com/tm-516-known
     color: #ffffff;
   }
 
-  #home h3 {
+  #home h2 {
+    color: #ffffff;
+    font-size: 4.5rem;
+  }
+
+  #home p {
     color: #f9f9f9;
-    font-size: 16px;
+    font-size: 2rem;
     font-weight: 300;
     margin: 0;
     padding: 5px 0 40px 0;
@@ -360,12 +365,16 @@ https://templatemo.com/tm-516-known
     }
   }
 
+  .text-shadow{
+    text-shadow:  2px 2px 5px black;
+  }
+
   .home-slider .caption {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    background-color: rgba(20,20,20,0.2);
+    background-color: rgba(20, 20, 20, 0.534);
     height: 100%;
     color: #fff;
     cursor: e-resize;
@@ -373,7 +382,8 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item {
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-position: center center;
+	  background-attachment: contain; 
     background-size: cover;
     height: 650px;
   }
@@ -383,11 +393,11 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item-first {
     background-image: url(../images/slider-image1.jpg);
-	background-position: center;
   }
 
   .home-slider .item-second {
     background-image: url(../images/slider-image2.jpg);
+
   }
 
   .home-slider .item-third {
@@ -881,7 +891,10 @@ https://templatemo.com/tm-516-known
     }
 
     .home-slider .item {
-      background-position: center center;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: contain;
     }
 
     .feature-thumb,
