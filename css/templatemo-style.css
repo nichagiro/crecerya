@@ -413,6 +413,14 @@ https://templatemo.com/tm-516-known
   .feature-thumb {
     border: 1px solid #f0f0f0;
     padding: 5em 3em;
+    box-shadow: 0 0 1px rgba(0,0,0,10.9);
+  }
+
+  .feature-thumb:hover{
+    border: 1px solid #f0f0f0;
+    padding: 5em 3em;
+    box-shadow: 0 0 1px rgba(0,0,0,10.9);
+    background-color: #85fcd0;
   }
 
   .feature-thumb span {
