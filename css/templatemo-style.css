@@ -23,6 +23,22 @@ https://templatemo.com/tm-516-known
     color:white;
   }
 
+  .text-white{
+    color:white;
+  }
+
+  .whatsapp{
+    position: fixed;
+    z-index:10;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .whatsapp img{
+    height: 60px;
+    width: 60px;
+  }
+
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -395,12 +411,14 @@ https://templatemo.com/tm-516-known
     background-size: cover;
     height: 650px;
   }
+
+  
   
   .caption h3 a { color: #FFF; }
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/principal.jpeg);
   }
 
   .home-slider .item-second {
@@ -934,13 +952,36 @@ https://templatemo.com/tm-516-known
   }
 
   @media only screen and (max-width: 767px) {
+    .home-slider .item {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: contain; 
+      height: 250px;
+    }
+
+    .section-btn {
+      padding: 7px 15px;
+      transition: 0.5s;
+      margin-top: -1rem;
+    }
+
+    #home h1 {
+      color: #ffffff;
+      font-size: 2rem;
+    }
+
+    #home p {
+      font-size: 1.5rem;
+    }
+
     h1 {
-      font-size: 2.5em;
+      font-size: 2.5rem;
     }
 
     h1,h2,h3 {
       line-height: normal;
     }
+
 
     .custom-navbar {
       background: #ffffff;
