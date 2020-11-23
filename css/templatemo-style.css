@@ -409,7 +409,7 @@ https://templatemo.com/tm-516-known
     background-position: center center;
 	  background-attachment: contain; 
     background-size: cover;
-    height: 650px;
+    height: 800px;
   }
 
   
@@ -418,17 +418,15 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/principal.jpeg);
+    background-image: url(../images/principal.webp);
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/slider-image2.webp);
 
   }
 
-  .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
-  }
+
 
 
 
@@ -948,6 +946,12 @@ https://templatemo.com/tm-516-known
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
+    }
+    .home-slider .item {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: contain; 
+      height: 500px;
     }
   }
 
