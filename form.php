@@ -2,16 +2,18 @@
 
 $name = $_POST['name'];
 $msg = $_POST['msg'];
+$phone = $_POST['phone'];
 
-$to = $_POST['email'];
+$to = 'nicolaschamorro@cisde.co';
 $subject = 'Mensaje desde pagina web';
-$message = "Nombre: $name"."\nMensaje: $msg";
+$message = "Nombre: $name"."Telefono: $phone"."\nMensaje: $msg";
 
-$headers = "From: osmel@maquillaje.biz";
+$headers = "From:".$_POST['email'];
 
 mail($to, $subject, $message, $headers);
 
-header('location:index.html');
+header('location:/');
 
 
 ?>
+
