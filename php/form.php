@@ -3,18 +3,20 @@
 $name = $_POST['name'];
 $msg = $_POST['msg'];
 $phone = $_POST['phone'];
+$email = $_POST['email'];
 
-if($name == '' | $msg == '' | $phone == '' | $_POST['email'] == ''){
+
+if($name == '' | $msg == '' | $phone == '' | $email == ''){
 
     echo json_encode ('error');
 
 } else {
 
-    // $to = 'elpoetaoga@ccreceresya.com';
+    // $to = 'elpoetaoga@creceresya.com';
     // $subject = 'Mensaje desde pagina web';
     // $message = "Nombre: $name"."\nTelefono: $phone"."\nMensaje: $msg";
 
-    // $headers = "From:".$_POST['email'];
+    // $headers = "From:".$email;
 
     // mail($to, $subject, $message, $headers);
 
