@@ -10,7 +10,7 @@ if($name == '' | $msg == '' | $phone == '' | $_POST['email'] == ''){
 
 } else {
 
-    // $to = 'nicolaschamorro@cisde.co';
+    // $to = 'elpoetaoga@ccreceresya.com';
     // $subject = 'Mensaje desde pagina web';
     // $message = "Nombre: $name"."\nTelefono: $phone"."\nMensaje: $msg";
 
