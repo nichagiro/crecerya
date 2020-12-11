@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .img-regalo{
+      background-image: linear-gradient(
+      rgba(28, 211, 4, 0.795), 
+      rgba(12, 77, 4, 0.795)
+    ),
+      url('../images/libro-gratis.webp');
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="img-regalo">
+  <div style="height: 100vh;" class="flex items-center ">
+
+    <div class="max-w-md mx-auto bg-white bg-opacity-25 rounded-xl shadow-xl overflow-hidden md:max-w-2xl">
+      <div id="card" class="p-8">
+        <!-- INVISIBLE -->
+        <div id="error" class="w-full border-l-4 border-red-700 bg-red-500 p-6 mb-4 hidden">
+          <b class="text-white">FALTAN DATOS</b>
+        </div>
+        <!-- INVISIBLE -->
+        <div class="uppercase tracking-wide text-sm text-white font-bold ">Suscribase y reciba un libro gratis</div>
+        <form class="pt-8" id="form">
+          <input type="text" name="name" placeholder="ESCRIBA SU NOMBRE*" class="placeholder-white bg-white bg-opacity-25 rounded-sm	border border-green-500 p-4 w-full mb-8" required>
+          <input type="email" name="email" placeholder="ESCRIBA SU CORREO*" class="placeholder-white bg-white bg-opacity-25 rounded-sm	border border-green-500 p-4 w-full mb-8" required>
+          <input type="number" name="phone" placeholder="ESCRIBA SU TELEFONO" class="placeholder-white bg-white bg-opacity-25 rounded-sm	border border-green-500 p-4 w-full mb-8">
+          <div class="text-center">
+            <button type="submit" class="rounded-sm	border bg-green-500 text-white p-4 w-1/2"> SUSCRIBETE </button>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+  <script defer src="../js/regalo.js"></script>
+</body>
+</html>
