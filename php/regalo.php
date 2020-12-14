@@ -11,20 +11,29 @@ if($name == '' | $email == ''){
 
 } else {
 
-    // $to = 'elpoetaoga@creceresya.com';
-    // $to = 'nicolaschamorro@cisde.co';
-    // $subject = 'subscripción pagina web';
-    // $message = "Nombre: $name".
-    //             "\nTelefono: $phone".
-    //             "\nSubscipcion desde la pagina web creceresya.com";
+    if($phone == ''){
 
-    // $headers = "From:".$email;
+        $phone = 'No suministro el telefono';
+        
+    }
 
-    // mail($to, $subject, $message, $headers);
+    $to = 'elpoetaoga@creceresya.com';
+    $subject = 'Nuevo Suscritor';
+    $message = "Nombre: $name".
+                "\nCorreo: $email".
+                "\nTelefono: $phone";
+
+    $headers = "From:".$email;
+
+    mail($to, $subject, $message, $headers);
 
     echo json_encode ('ok');
 
 }
+
+?>
+
+
 
 
 

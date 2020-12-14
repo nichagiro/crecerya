@@ -12,13 +12,13 @@ if($name == '' | $msg == '' | $phone == '' | $email == ''){
 
 } else {
 
-    // $to = 'elpoetaoga@creceresya.com';
-    // $subject = 'Mensaje desde pagina web';
-    // $message = "Nombre: $name"."\nTelefono: $phone"."\nMensaje: $msg";
+    $to = 'elpoetaoga@creceresya.com';
+    $subject = 'Mensaje desde pagina web';
+    $message = "Nombre: $name"."\nTelefono: $phone"."\nMensaje: $msg";
 
-    // $headers = "From:".$email;
+    $headers = "From:".$email;
 
-    // mail($to, $subject, $message, $headers);
+    mail($to, $subject, $message, $headers);
 
     echo json_encode ('ok');
 
