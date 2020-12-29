@@ -25,7 +25,7 @@ form.addEventListener('submit', function(e){
             card.innerHTML= `
             
             <div class="text-center " id="download">
-                <a download href="../images/libro-gratis.webp" class="rounded-sm border bg-green-500 text-white p-4 w-1/2"> Descargar </a>
+                <a download href="../files/TU PROYECTO DE VIDA - OGA, Orlando Giraldo Arango.pdf" class="rounded-sm border bg-green-500 text-white p-4 w-1/2"> Descargar </a>
                 <div class="pt-6">
                     <a href="https://creceresya.com" class="text-white flex justify-center"> 
                     <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
