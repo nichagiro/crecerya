@@ -86,22 +86,23 @@
       url('../images/libro-gratis.webp');
       background-position: center;
       background-size: cover;
+      height: 100vh;
     }
   </style>
   <!-- tailwind -->
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="img-regalo">
-  <div style="height: 100vh;" class="flex items-center ">
-
+<body class="img-regalo px-2" id="body">
+  
+  <div class="flex flex-wrap items-center" style="height:100%;">
     <div class="max-w-md mx-auto bg-white bg-opacity-25 rounded-xl shadow-xl overflow-hidden md:max-w-2xl">
       <div id="card" class="p-8">
         <!-- INVISIBLE -->
         <div id="error" class="w-full border-l-4 border-red-700 bg-red-500 p-6 mb-4 hidden">
-          <b class="text-white">FALTAN DATOS</b>
+          <b class="text-white">FALTAN DATOS</b> 
         </div>
         <!-- INVISIBLE -->
-        <div class="uppercase tracking-wide text-sm text-white font-bold ">Suscribase y reciba un libro gratis</div>
+        <div class="uppercase tracking-wide text-sm text-white font-bold ">TU PROYECTO DE VIDA E-BOOK</div>
         <form class="pt-8" id="form">
           <input type="text" name="name" placeholder="ESCRIBA SU NOMBRE*" class="placeholder-white bg-white bg-opacity-25 rounded-sm	border border-green-500 p-4 w-full mb-8" required>
           <input type="email" name="email" placeholder="ESCRIBA SU CORREO*" class="placeholder-white bg-white bg-opacity-25 rounded-sm	border border-green-500 p-4 w-full mb-8" required>
@@ -111,7 +112,6 @@
           </div>
         </form>
       </div>
-      
     </div>
   </div>
 
