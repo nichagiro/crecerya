@@ -52,7 +52,7 @@ form.addEventListener('submit', function(e){
         } else {
 
             
-            let error = document.getElementById('error').style.display = 'block';
+            document.getElementById('error').style.display = 'block';
 
         }
 

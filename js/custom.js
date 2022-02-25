@@ -39,8 +39,9 @@
       autoplayHoverPause: false,
       autoplay: true,
       smartSpeed: 1000,
-      dots: false,
-      nav:true,
+      dots: true,
+      lazyLoad: true,
+      nav:false,
       navText: [
           '<i class="fa fa-angle-left"></i>',
           '<i class="fa fa-angle-right"></i>'
@@ -49,6 +50,7 @@
       responsive: {
         0: {
           items: 1,
+          dots: false
         },
         1000: {
           items: 3,
