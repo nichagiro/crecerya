@@ -13,12 +13,12 @@ formy.addEventListener('submit', function(e){
     })
 
     .then(res => res.json())
-    .then(data => {
+    .then (data => {
 
-        if(data == 'ok') { 
+        if(data == 'ok') {
 
-            formy.style.display = 'none';
             document.getElementById('form-ok').style.display = 'block';
+            formy.style.display = 'none';
 
         } else {
 

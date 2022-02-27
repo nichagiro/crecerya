@@ -29,7 +29,7 @@ form.addEventListener('submit', function(e){
                         <!-- ALERT -->
                         <div class="w-full sm:w-10/12 xl:w-7/12 mb-12 bg-opacity-25 mx-auto bg-green-900 shadow-lg p-2">
                             <b>AQUÍ ESTÁ SU OBSEQUIO Y GRACIAS POR PREFERIRLO,</b> <br>
-                            <b>¡DISFRÚTELO</b>
+                            <b>¡DISFRÚTELO!</b>
                         </div>
                         <!-- DOWNALD -->
                         <div class="w-full" id="download">
